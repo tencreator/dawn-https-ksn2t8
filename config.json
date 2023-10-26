@@ -1,0 +1,17 @@
+{
+  "title": "TenCreator's links",
+  
+  "catagories": [
+    {
+      "id": 1,
+      "name": "Main sites",
+      "links": [
+        {
+          "id": 1,
+          "name": "Store",
+          "url": "https://store.tencreator.xyz"
+        }
+      ]
+    }
+  ]
+}
