@@ -14,11 +14,11 @@ interface catagories {
 }
 
 export default function RenderCatagories() {
-  function Catagory({id, name, links}: catagories) {
+  function Catagory(props: catagories) {
     return (
-      <div key={id}>
-        <h2>{name}</h2>
-        <RenderLinks links={links}/>
+      <div key={props.id}>
+        <h2>{props.name}</h2>
+        <RenderLinks links={props.links}/>
       </div>
     )
   }
